@@ -8,21 +8,37 @@
 </head>
 
 <body>
-	<nav>
-		<a href="https://unsplash.com/">Unsplash</a>
-		<a href="https://chat.openai.com/c/d70b26db-2886-4311-8049-81072a4a5dde">ChatGpt</a>
-	</nav>
-	<h1>Accessible Portfolio</h1>
-	<img src="https://images.unsplash.com/photo-1682686581854-5e71f58e7e3f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D" alt="image"> 
-	<ul>
-		<li>List Item1</li>
-		<li>List Item2</li>
-		<li>List Item3</li>
-	</ul>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <header role="heading">
+        <h1>Accessable Portfolio</h1>
+    </header>
+
+   <nav>
+    <ul>
+        <li><a href="aboutMe">About Me</a></li>
+          <li?><a href="project">Project</a></li>
+            <li><a href="contact">Contact</a></li>
+      </ul>
+   </nav>
+
+   <section id="aboutMe" aria-label="About Me">
+         <h2>About Me</h2>
+         <img src="https://images.unsplash.com/photo-1711560705614-0bf664b26f58?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8" alt="pp">
+         <p>brief description</p>
+        </section>
+
+ <section id="project" aria-label="Project">
+        <h2>Project</h2>
+        <ul>
+           <li role="listitem" >Project 1</li>
+           <li role="listitem">Project 2</li>
+           <li role="listitem">Project 3</li>
+        </ul>
+ </section>
+
+ <section id="contact" aria-label="contact">
+    <h2>Contact</h2>
+    <p>Phone number:9870***** </p>
+ </section>
 
 </body>
-
 </html>
